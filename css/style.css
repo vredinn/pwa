@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-style: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo{
+    height: 50px;
+}
+
+.header__text{
+    font-size: 2rem;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.calc__item{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calc__label{
+    font-size: 2rem;
+}
+
+.calc__field{    
+    font-size: 2rem;
+    box-sizing: border-box;
+}
+
+.calc__button{
+    border: none;
+    background-color: #9198e5;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    transition: box-shadow .2s, transform .2s;
+}
+
+.calc__button:hover{
+    cursor: pointer;
+}
+
+.calc__button:active{
+    transform: scale(.98);
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, .5);
+}
